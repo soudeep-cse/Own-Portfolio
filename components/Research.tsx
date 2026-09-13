@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
+import { ExternalLink } from "lucide-react";
 import { publicationTabs, publications, type PublicationStatus } from "@/data/publications";
 import { staggerContainer, fadeInUp } from "@/lib/animations";
 import { GlassCard } from "./GlassCard";
@@ -75,6 +76,17 @@ export function Research() {
                 )}
                 {pub.contribution && (
                   <p className="mt-2 text-sm text-muted-foreground">{pub.contribution}</p>
+                )}
+                {pub.url && (
+                  <a
+                    href={pub.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-3 inline-flex items-center gap-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-gradient"
+                  >
+                    View Paper
+                    <ExternalLink className="h-3.5 w-3.5" />
+                  </a>
                 )}
               </GlassCard>
             </motion.div>

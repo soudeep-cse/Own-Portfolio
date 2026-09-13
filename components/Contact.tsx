@@ -34,7 +34,7 @@ export function Contact() {
       <SectionHeading
         eyebrow="Contact"
         title="Let's work together"
-        description="Open to full-time roles, research collaborations, and freelance AI engineering work."
+        description="Open to full-time roles, research collaborations, and AI automation engineering work."
       />
 
       <motion.div

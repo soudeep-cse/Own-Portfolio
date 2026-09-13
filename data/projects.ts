@@ -20,6 +20,7 @@ export const projects: Project[] = [
     stack: ["FastAPI", "MongoDB", "Claude API", "LangChain", "Docker", "AWS CI/CD"],
     metric: "60% fewer API calls via smart caching",
     featured: true,
+    liveUrl: "https://www.ikonskills.ac/credential-catalog",
   },
   {
     title: "Automated Client Acquisition & Lead Pipeline",
@@ -39,6 +40,7 @@ export const projects: Project[] = [
     ],
     stack: ["Python", "XGBoost", "Scikit-learn", "REST API", "AWS CI/CD"],
     featured: false,
+    liveUrl: "https://apps.apple.com/sg/app/full-send-sports-ai/id6751740118",
   },
   {
     title: "Virtual Car Wrapping & Color Customization System",
@@ -47,6 +49,7 @@ export const projects: Project[] = [
     ],
     stack: ["FastAPI", "YOLOv8", "OpenCV", "NumPy", "Pillow", "AWS EC2"],
     featured: false,
+    liveUrl: "https://wrapmyride.ai/",
   },
   {
     title: "Intelligent Medical Chatbot with Persistent Memory",
