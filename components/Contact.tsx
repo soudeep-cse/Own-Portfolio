@@ -2,7 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { motion } from "framer-motion";
-import { Download, Mail, Phone, GraduationCap as Scholar, MapPin } from "lucide-react";
+import { Mail, Phone, GraduationCap as Scholar, MapPin } from "lucide-react";
 import { siteConfig, socialLinks } from "@/data/site";
 import { fadeInUp, staggerContainer, viewportOnce } from "@/lib/animations";
 import { GlassCard } from "./GlassCard";
@@ -86,15 +86,6 @@ export function Contact() {
               })}
             </div>
           </GlassCard>
-
-          <a
-            href={siteConfig.resumeUrl}
-            download
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-accent px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-accent-via/25 transition-transform hover:scale-[1.02] active:scale-[0.98]"
-          >
-            <Download className="h-4 w-4" />
-            Download Resume
-          </a>
         </motion.div>
 
         <motion.div variants={fadeInUp}>

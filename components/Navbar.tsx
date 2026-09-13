@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { Menu, X, Download } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { navLinks, siteConfig } from "@/data/site";
 import { ThemeToggle } from "./ThemeToggle";
 import { cn } from "@/lib/utils";
@@ -51,12 +51,10 @@ export function Navbar() {
         <div className="hidden items-center gap-3 md:flex">
           <ThemeToggle />
           <a
-            href={siteConfig.resumeUrl}
-            download
+            href="#contact"
             className="inline-flex items-center gap-2 rounded-full bg-gradient-accent px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-accent-via/20 transition-transform hover:scale-[1.03] active:scale-[0.98]"
           >
-            <Download className="h-4 w-4" />
-            Resume
+            Contact Me
           </a>
         </div>
 
@@ -100,12 +98,11 @@ export function Navbar() {
               ))}
               <li className="pt-2">
                 <a
-                  href={siteConfig.resumeUrl}
-                  download
+                  href="#contact"
+                  onClick={() => setMobileOpen(false)}
                   className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-gradient-accent px-4 py-2 text-sm font-semibold text-white"
                 >
-                  <Download className="h-4 w-4" />
-                  Download Resume
+                  Contact Me
                 </a>
               </li>
             </ul>

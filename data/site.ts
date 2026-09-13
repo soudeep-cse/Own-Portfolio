@@ -23,7 +23,6 @@ export const siteConfig = {
     "Building production AI systems — from RAG pipelines to published research.",
   email: "soudeep.cse@gmail.com",
   phone: "+880 1635-851841",
-  resumeUrl: "/resume.pdf",
   photoUrl:
     "https://res.cloudinary.com/drsmahozy/image/upload/v1788079033/soudeep-AI_pugbhh.jpg",
 };
