@@ -17,7 +17,7 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://shahriarsoudeep.com",
   name: "Shahriar Soudeep",
   initials: "SS",
-  roles: ["AI Developer", "AI Engineer", "ML Engineer"],
+  roles: ["AI Developer", "AI Engineer", "ML Engineer", "Automation Expert"],
   location: "Dhaka, Bangladesh",
   tagline:
     "Building production AI systems — from RAG pipelines to published research.",

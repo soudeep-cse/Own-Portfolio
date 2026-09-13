@@ -58,5 +58,6 @@ export const projects: Project[] = [
     ],
     stack: ["FastAPI", "LangChain", "CrewAI", "FAISS", "Redis", "Streamlit", "GPT-4"],
     featured: false,
+    githubUrl: "https://github.com/soudeep-cse/Healthcare_Knowledge_Assistant",
   },
 ];
